@@ -38,8 +38,8 @@
 
 ## System Requirements
 
-- [git][git] v2 or greater
-- [NodeJS][node] v10 or greater
+- [git][git] v2.13 or greater
+- [NodeJS][node] `^10.13 || 12 || 14`
 - [npm][npm] v6 or greater
 
 All of these must be available in your `PATH`. To verify things are set up
@@ -57,25 +57,37 @@ variable and how to fix it here for [windows][win-path] or
 
 ## Setup
 
+> If you want to commit and push your work as you go, you'll want to
+> [fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo)
+> first and then clone your fork rather than this repo directly.
+
 After you've made sure to have the correct things (and versions) installed, you
 should be able to just run a few commands to get set up:
 
 ```
 git clone https://github.com/kentcdodds/react-fundamentals.git
 cd react-fundamentals
-npm run setup --silent
+node setup
 ```
 
 This may take a few minutes. **It will ask you for your email.** This is
 optional and just automatically adds your email to the links in the project to
 make filling out some forms easier.
 
-A few common issues during `npm run setup --silent` have involved PATH variables (above links or [here](https://github.com/kentcdodds/react-fundamentals/issues/27)), reinstalling git, node, or npm, and clearing npm caches.
+A few common issues during `node setup` have involved PATH variables (above
+links or [here](https://github.com/kentcdodds/react-fundamentals/issues/27)),
+reinstalling git, node, or npm, and clearing npm caches.
 
 If you get any errors, please read through them and see if you can find out what
 the problem is. If you can't work it out on your own then please [file an
 issue][issue] and provide _all_ the output from the commands you ran (even if
 it's a lot).
+
+It's recommended you run everything locally in the same environment you work in
+every day, but if you're having issues getting things set up, you can also set
+this up using [GitHub Codespaces](https://github.com/features/codespaces)
+([video demo](https://www.youtube.com/watch?v=gCoVJm3hGk4)) or
+[Codesandbox](https://codesandbox.io/s/github/kentcdodds/react-fundamentals).
 
 ## Running the app
 
@@ -170,6 +182,21 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://github.com/FelixGeelhaar"><img src="https://avatars0.githubusercontent.com/u/6020564?v=4" width="100px;" alt=""/><br /><sub><b>Felix Geelhaar</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=FelixGeelhaar" title="Documentation">📖</a></td>
     <td align="center"><a href="https://twitter.com/apolakipso"><img src="https://avatars2.githubusercontent.com/u/494674?v=4" width="100px;" alt=""/><br /><sub><b>Apola Kipso</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=apolakipso" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/dcgoodwin2112"><img src="https://avatars1.githubusercontent.com/u/4554388?v=4" width="100px;" alt=""/><br /><sub><b>dcgoodwin2112</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/issues?q=author%3Adcgoodwin2112" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/pritamsangani/"><img src="https://avatars3.githubusercontent.com/u/22857896?v=4" width="100px;" alt=""/><br /><sub><b>Pritam Sangani</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=PritamSangani" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/rchinerman"><img src="https://avatars3.githubusercontent.com/u/17489675?v=4" width="100px;" alt=""/><br /><sub><b>Ryan Hinerman</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=rchinerman" title="Documentation">📖</a> <a href="https://github.com/kentcdodds/react-fundamentals/commits?author=rchinerman" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Marcoj776"><img src="https://avatars0.githubusercontent.com/u/9052097?v=4" width="100px;" alt=""/><br /><sub><b>Marco</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/issues?q=author%3AMarcoj776" title="Bug reports">🐛</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://peter.hozak.info/"><img src="https://avatars0.githubusercontent.com/u/1087670?v=4" width="100px;" alt=""/><br /><sub><b>Peter Hozák</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=Aprillion" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/emzoumpo"><img src="https://avatars2.githubusercontent.com/u/2103443?v=4" width="100px;" alt=""/><br /><sub><b>Emmanouil Zoumpoulakis</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=emzoumpo" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://navneet-sahota.netlify.com"><img src="https://avatars1.githubusercontent.com/u/34404592?v=4" width="100px;" alt=""/><br /><sub><b>Navneet Sahota</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=Navneet-Sahota" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/rodrigofuentes"><img src="https://avatars1.githubusercontent.com/u/7374840?v=4" width="100px;" alt=""/><br /><sub><b>Rodrigo Fuentes</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=rodrigofuentes" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://magrippis.com"><img src="https://avatars0.githubusercontent.com/u/3502800?v=4" width="100px;" alt=""/><br /><sub><b>Johnny Magrippis</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=jmagrippis" title="Code">💻</a></td>
+    <td align="center"><a href="http://acharyaroshan.com.np"><img src="https://avatars2.githubusercontent.com/u/56434316?v=4" width="100px;" alt=""/><br /><sub><b>Roshan Acharya</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=coderosh" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/decisa"><img src="https://avatars0.githubusercontent.com/u/35339760?v=4" width="100px;" alt=""/><br /><sub><b>Art Telesh</b></sub></a><br /><a href="https://github.com/kentcdodds/react-fundamentals/commits?author=decisa" title="Documentation">📖</a> <a href="https://github.com/kentcdodds/react-fundamentals/commits?author=decisa" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/merodiro"><img src="https://avatars1.githubusercontent.com/u/17033502?v=4" width="100px;" alt=""/><br /><sub><b>Amr A.Mohammed</b></sub></a><br /><a href="#ideas-merodiro" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
@@ -194,7 +221,7 @@ Thank you! https://kcd.im/rf-ws-feedback
 [node]: https://nodejs.org
 [git]: https://git-scm.com/
 [build-badge]: https://img.shields.io/travis/kentcdodds/react-fundamentals.svg?style=flat-square&logo=travis
-[build]: https://travis-ci.org/kentcdodds/react-fundamentals
+[build]: https://travis-ci.com/kentcdodds/react-fundamentals
 [license-badge]: https://img.shields.io/badge/license-GPL%203.0%20License-blue.svg?style=flat-square
 [license]: https://github.com/kentcdodds/react-fundamentals/blob/main/LICENSE
 [coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square

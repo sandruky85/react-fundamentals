@@ -174,6 +174,107 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "PritamSangani",
+      "name": "Pritam Sangani",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/22857896?v=4",
+      "profile": "https://www.linkedin.com/in/pritamsangani/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rchinerman",
+      "name": "Ryan Hinerman",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/17489675?v=4",
+      "profile": "https://github.com/rchinerman",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "Marcoj776",
+      "name": "Marco",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/9052097?v=4",
+      "profile": "https://github.com/Marcoj776",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Aprillion",
+      "name": "Peter Hozák",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/1087670?v=4",
+      "profile": "http://peter.hozak.info/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "emzoumpo",
+      "name": "Emmanouil Zoumpoulakis",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/2103443?v=4",
+      "profile": "https://github.com/emzoumpo",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Navneet-Sahota",
+      "name": "Navneet Sahota",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/34404592?v=4",
+      "profile": "https://navneet-sahota.netlify.com",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "rodrigofuentes",
+      "name": "Rodrigo Fuentes",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/7374840?v=4",
+      "profile": "https://github.com/rodrigofuentes",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "jmagrippis",
+      "name": "Johnny Magrippis",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3502800?v=4",
+      "profile": "https://magrippis.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "coderosh",
+      "name": "Roshan Acharya",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/56434316?v=4",
+      "profile": "http://acharyaroshan.com.np",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "decisa",
+      "name": "Art Telesh",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35339760?v=4",
+      "profile": "https://github.com/decisa",
+      "contributions": [
+        "doc",
+        "code"
+      ]
+    },
+    {
+      "login": "merodiro",
+      "name": "Amr A.Mohammed",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/17033502?v=4",
+      "profile": "https://github.com/merodiro",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "skipCi": true
